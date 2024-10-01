@@ -8,13 +8,13 @@ def creer():
     print('3 suppression ')
     print('4 modification ')
     x=int(input('que voulez vous faire'))
-    if(x=1):
+    if(x==1):
         ajout(chtxt)
-    else if (x=2):
+    else if (x==2):
         affich(chtxt)
-    else if (x=3):
+    else if (x==3):
         supp(chtxt)
-    else if(x=4):
+    else if(x==4):
         modif(chtxt)
 
 def ajout(chtxt):
@@ -27,7 +27,7 @@ def affich(chtxt):
     f=open(chtxt,'r')
     ch=f.readline()
     i=1
-    while(not(ch="")):
+    while(not(ch=="")):
         print(i+''+ch)
         ch=f.readline()
         i=i+1
