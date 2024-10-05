@@ -11,12 +11,12 @@ def saisie():
 
 def remplir(p, q):
     f = open(chemin, "w")
-    f.write(str(str(p) + ' ' + str(q) + '\n'))
+    f.write(str(p) + ' ' + str(q) + '\n')
 
-    np, nq, offset, k = p, q, 0, 2
+    np, offset, k = p, 0, 2
     temp = ""
 
-    while(nq != np):
+    while(np != q):
         temp = str(np) + '='
         while(k < np):
             if(np % k == 0):
