@@ -41,7 +41,6 @@ def verif1(ch):
                     return False
 
 def verif2(x):
-    x=str(x)
     return len(x)==8
 
 def affichage(n,chadmin,chrefuse,chbin):
