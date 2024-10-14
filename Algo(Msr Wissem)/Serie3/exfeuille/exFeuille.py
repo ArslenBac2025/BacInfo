@@ -19,17 +19,30 @@ def remplir(n,chbin):
         while(not(verif1(e['np']))):
             e['np']=str(input('donner np'))
         e['moy']=float(input('donner moy'))
-        e['cin']=str(input('donner cin'))
+        e['cin']=input('donner cin')
         while(not(verif2(e['cin']))):
-            e['cin']=str(input('donner cin'))
+            print('le cin doit etre former par 8 chiffres')
+            e['cin']=input('donner cin')
+        print(e['cin'])
         dump(e, f)
     f.close()
 
 def verif1(ch):
-    return True
+    count=0
+    for i in range(len(ch)):
+        if ch[i]==' ':
+            count+=1
+    if(count!=1):
+        return False
+    else:
+        for i in range(len(ch)):
+            if(ch[i]!=' '):
+                if(not('A'<=ch[i].upper()<='Z')):
+                    return False
 
-def verif2(ch):
-    return True
+def verif2(x):
+    x=str(x)
+    return len(x)==8
 
 def affichage(n,chadmin,chrefuse,chbin):
     f1=open(chbin,'rb')
