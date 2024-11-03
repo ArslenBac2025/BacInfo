@@ -1,0 +1,29 @@
+.btns {
+  text-align: right;
+}
+
+.input-group {
+  margin: 10px 0px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+}
+
+.input-group input[type="number"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.input-group input {
+  font-size: 14px;
+}
+
+#cin,
+#postal {
+  /* height: 70px;*/
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enregistrement</title>
+    <link rel="stylesheet" href="../css/enregistrement.css" />
+  </head>
+  <body>
+    <form
+      method="POST"
+      onsubmit="return verif()"
+      action="../php/enregistrement.php"
+    >
+      <fieldset>
+        <legend>Enregistrement d'un colis</legend>
+        <fieldset>
+          <legend>Éxpediteur</legend>
+          <div class="input-group">
+            <label>Cin:</label>
+            <input type="text" name="cin" id="cin" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Destinaire</legend>
+          <div class="input-group">
+            <label>Nom et prénom:</label>
+            <input type="text" name="np" id="np" />
+          </div>
+          <div class="input-group">
+            <label>Adresse:</label>
+            <input type="text" name="adr" id="adr" />
+          </div>
+          <div class="input-group">
+            <label>Code Postal:</label>
+            <input type="number" name="postal" id="postal" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Colis</legend>
+          <div class="input-group">
+            <div class="options">
+              <label>Fragile:</label>
+              <div class="option">
+                <input type="radio" value="O" name="fragile" id="fragile" />
+                <span>Oui</span>
+              </div>
+              <div class="option">
+                <input type="radio" value="N" name="fragile" id="nfragile" />
+                <span>Non</span>
+              </div>
+            </div>
+          </div>
+          <div class="input-group">
+            <label>Transporteur:</label>
+            <select id="transporteur" name="transporteur">
+              <option>Sélectionner un transporteur</option>
+              <option value="AE512">FastColis</option>
+              <option value="BC542">Express Service</option>
+              <option value="RapideLiv">RapideLiv</option>
+            </select>
+          </div>
+        </fieldset>
+        <div class="btns">
+          <button type="reset">Annuler</button>
+          <button type="submit">Ajouter</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+  <script src="../js/controle.js"></script>
+</html>
