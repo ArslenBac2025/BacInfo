@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form>
+        <div class="input-group">
+            <label>
+                N°d d'immatriculation:
+            </label>
+            <div class="input-content-group">
+                <input type="text" id="n_mat0">
+                <select id="n_mat1" name="n_mat1">
+                    <option>TUN</option>
+                    <option>IT</option>
+                    <option>FR</option>
+                    <option>ESP</option>
+                    <option>GER</option>
+                </select>
+                <input type="text" id="n_mat2">
+            </div>
+        </div>
+        <div class="input-group">
+            <label>Nom et prénom: </label>
+            <input type="text" id="np" name="np">
+        </div>
+        <div class="input-group">
+            <label>Adresse: </label>
+            <input id="adr" name="adr">
+        </div>
+        <div class="input-group">
+            <label>CIN: </label>
+            <input id="cin" name="cin">
+        </div>
+        <div class="input-group">
+            <label>Marque</label>
+            <select id="marque" name="marque">
+                <option>Peugeot</option>
+                <option>Volkswagen</option>
+                <option>Citroën</option>
+                <option>Fiat</option>
+                <option>Ford</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label>Genre: </label>
+            <div class="radio-group">
+                <div class="radio-input">
+                    <input type="radio" id="genre_comm" name="genre">
+                    <span>Commericale</span>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" id="genre_pro" name="genre">
+                    <span>Professionelle</span>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" id="genre_per" name="genre">
+                    <span>Personelle</span>
+                </div>
+            </div>
+        </div>
+        <div class="input-group">
+            <label>Je ne suis pas un robot: </label>
+            <input type="checkbox" id="robot">
+        </div>
+        <div class="btns">
+            <button type="button" onclick="verif()">Enregistrer</button>
+            <button type="reset">Annuler</button>
+        </div>
+        <label>Liste de voitures: </label>
+        <select id="res" name="res">
+            <option disabled>Num immatriculation</option>
+        </select>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+form{
+    width: 600px;
+    border: 1px solid black;
+    padding: 20px 50px;
+}
+
+form label {
+    width: 200px;
+    text-align: left;
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group input{
+    width: 207px;
+}
+
+.input-content-group input{
+    width: 75px;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+.radio-group{
+    display: flex;
+    justify-content: center;
+}
+
+.radio-input{
+    display: flex;
+}
+
+input[type="radio"] {
+    width: 50px;
+}
+
+.btns{
+    text-align: right;
+}
+
