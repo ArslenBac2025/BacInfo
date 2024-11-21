@@ -1,3 +1,0 @@
-/home/aziz/Documents/University/Programming/Cours/Wissem/les fichiers/serie 1/exPROD/cmake-build-debug/CMakeFiles/exPROD.dir
-/home/aziz/Documents/University/Programming/Cours/Wissem/les fichiers/serie 1/exPROD/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/aziz/Documents/University/Programming/Cours/Wissem/les fichiers/serie 1/exPROD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
