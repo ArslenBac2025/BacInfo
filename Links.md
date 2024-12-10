@@ -35,7 +35,13 @@ Ich komme bald Deutschland🥰
      https://www.facebook.com/share/p/15PmE6GyLt/
 
 ## MISC:
- Philo Synthese 1: 
- 
-     https://www.facebook.com/share/1BbKnn9yMT/
-  
+ ### Deutsch:
+   Synthese 1:
+   
+     https://www.facebook.com/share/p/14ZkUdX5vR/
+
+ ### Philo:
+  Synthese 1: 
+   
+       https://www.facebook.com/share/1BbKnn9yMT/
+
