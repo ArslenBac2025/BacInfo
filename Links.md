@@ -21,6 +21,10 @@ Ich komme bald Deutschland🥰
    
      https://www.facebook.com/share/14JYgy3QpP/
 
+   BAC 2024:
+   
+     https://www.facebook.com/share/p/1AsnpKMqM8/
+
 # Math:
   Math Synthese 1: 
     
