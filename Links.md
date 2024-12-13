@@ -26,7 +26,7 @@ Ich komme bald Deutschland🥰
      https://www.facebook.com/share/p/1AsnpKMqM8/
 
 # Math:
-  Math Synthese 1: 
+  Math Synthese 1(1): 
     
     https://www.facebook.com/share/p/1EnaGGWWr9/
 
