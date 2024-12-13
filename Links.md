@@ -30,6 +30,10 @@ Ich komme bald Deutschland🥰
     
     https://www.facebook.com/share/p/1EnaGGWWr9/
 
+  Math Synthese 1(2):
+
+    https://www.facebook.com/share/1B187hy883/
+
 ## STI:
  Controlle 1: 
      
