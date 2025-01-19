@@ -51,6 +51,9 @@ Ich komme bald Deutschland🥰
    Synthese 1:
    
      https://www.facebook.com/share/p/14ZkUdX5vR/
+   Summary:
+   
+    https://www.facebook.com/share/p/1BeTmm1563/
 
  ### Philo:
   Synthese 1: 
