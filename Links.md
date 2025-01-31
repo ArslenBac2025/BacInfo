@@ -25,6 +25,10 @@ Ich komme bald Deutschland🥰
    
      https://www.facebook.com/share/p/1AsnpKMqM8/
 
+   Controlle 3:
+     
+     https://www.facebook.com/share/p/15kumNGp1v/
+
 # Math:
   Math Synthese 1(1): 
     
